@@ -1,0 +1,3 @@
+rootProject.name = 'stockservice'
+include 'stockservice','base-domain'
+project(':base-domain').projectDir = new File('../base-domain')
